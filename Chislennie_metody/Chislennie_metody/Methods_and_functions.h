@@ -12,4 +12,5 @@ public:
 	double GetNU() { return u0; };
 	void Set_Start_Condition(double uStart);
 	myFunction& operator=(const myFunction& G);
+	~myFunction() {};
 };

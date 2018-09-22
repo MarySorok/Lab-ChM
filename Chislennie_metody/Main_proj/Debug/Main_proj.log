@@ -1,3 +1,11 @@
 ﻿  main.cpp
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(19): warning C4700: использована неинициализированная локальная переменная "param2"
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(19): warning C4700: использована неинициализированная локальная переменная "param1"
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(19): warning C4700: использована неинициализированная локальная переменная "Mas"
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(20): warning C4700: использована неинициализированная локальная переменная "uStart"
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(22): warning C4700: использована неинициализированная локальная переменная "h0"
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(26): warning C4700: использована неинициализированная локальная переменная "E"
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(29): warning C4700: использована неинициализированная локальная переменная "Nmax"
+c:\users\soroka\desktop\lab-chm\chislennie_metody\main_proj\main.cpp(34): warning C4700: использована неинициализированная локальная переменная "k"
   Main_proj.vcxproj -> C:\Users\Soroka\Desktop\Lab-ChM\Chislennie_metody\Debug\Main_proj.exe
   Main_proj.vcxproj -> C:\Users\Soroka\Desktop\Lab-ChM\Chislennie_metody\Debug\Main_proj.pdb (Partial PDB)

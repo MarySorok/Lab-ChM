@@ -10,6 +10,8 @@ Method_Runge_Kutty::Method_Runge_Kutty(int Const, double shag, double nu, myFunc
 	i = 0;
 	xi = 0;
 	vi = F->GetNU();
+	xPrev = -1;
+	vPrev = -1;
 }
 
 int Method_Runge_Kutty::Podschet() 
@@ -25,6 +27,8 @@ int Method_Runge_Kutty::Podschet()
 	k4 = F->Count(xi + h, vi + h*k3);
 	vj = vi + h / 6 * (k1+2*k2+2*k3+k4);
 	//перешли в следующую точку
+	xPrev = xi;
+	vPrev = vi;
 	xi = xj;
 	vi = vj;
 	i++;

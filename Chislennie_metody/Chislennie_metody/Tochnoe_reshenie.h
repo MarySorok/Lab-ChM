@@ -15,4 +15,5 @@ public:
 	int Tochnoe_vichislenie();
 	double GetXi_tochnoe() { return xi; }
 	double GetUi_tochnoe() { return ui; }
+	~mySolution() {};
 };
