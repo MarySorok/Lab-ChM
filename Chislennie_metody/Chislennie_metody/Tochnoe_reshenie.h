@@ -12,5 +12,7 @@ class mySolution {
 public:
 	mySolution() {};
 	mySolution(double, double, double, double, double);
-	int Tochnoe_vichislenie(double);
+	int Tochnoe_vichislenie();
+	double GetXi_tochnoe() { return xi; }
+	double GetUi_tochnoe() { return ui; }
 };
