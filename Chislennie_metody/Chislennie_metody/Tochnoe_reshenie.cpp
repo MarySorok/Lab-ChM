@@ -10,12 +10,12 @@ mySolution::mySolution(double mas, double par1, double par2, double uStart, doub
 	u0 = uStart;
 	xi = x0;
 	ui = u0;
-	Const = m / (2 * a1)*log((a1+a3*pow(u0,2)) / pow(u0, 2)) - x0;
+	Const = log(a1/(m*u0*u0)+a3*m)/(2*a1);
 }
 int mySolution::Tochnoe_vichislenie() {
 	double xj, uj;
 	xj = xi + h;
-	uj = sqrt(a1/(exp(2*a1/m*(xj+Const))-a3));
+	uj = pow(a1/m,0.5)/(pow(exp((Const+xj)*2*a1)-a3*m,0.5));
     //переход в следующую точку
 	xi = xj;
 	ui = uj;

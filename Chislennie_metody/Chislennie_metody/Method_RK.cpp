@@ -9,7 +9,7 @@ Method_Runge_Kutty::Method_Runge_Kutty(int Const, double shag, double nu, myFunc
 	F->Set_Start_Condition(nu);
 	i = 0;
 	xi = 0;
-	vi = F->GetNU();
+	vi = nu;
 	xPrev = -1;
 	vPrev = -1;
 }
